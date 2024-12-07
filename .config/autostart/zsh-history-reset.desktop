@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=bash $HOME/.zsh-history-reset.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Zsh History Reset Program

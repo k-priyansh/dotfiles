@@ -1,0 +1,145 @@
+{
+    "editor.fontFamily": "JetBrainsMono Nerd Font, Consolas, 'Courier New', monospace", //"JetBrainsMono Nerd Font"
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    // "editor.fontWeight": "350", // OPTIONAL
+    "editor.lineHeight": 24,
+    "editor.wordWrap":  "on",
+    "editor.formatOnPaste":  true,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+    // ?Others
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // !Workbench
+    "workbench.commandPalette.experimental.askChatLocation": "quickChat",
+    "workbench.commandPalette.experimental.suggestCommands": false,
+    "workbench.commandPalette.experimental.enableNaturalLanguageSearch": true,
+    "workbench.commandPalette.preserveInput": false,
+    "workbench.commandPalette.history": 50,
+    "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.layoutControl.enabled": true,
+    "workbench.sideBar.location": "left",
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.list.multiSelectModifier": "alt",
+    "workbench.startupEditor": "none",
+    // "workbench.editor.tabActionCloseVisibility": false,
+    // "workbench.colorCustomizations": {},
+    // "workbench.editor.tabCloseButton": "On",
+    // "workbench.settings.editor": "json",
+
+    // !Editor
+
+    "editor.minimap.enabled": false, // OPTIONAL
+    "breadcrumbs.enabled": true,
+    "editor.overviewRulerBorder":true,
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.codeLens": false,
+    "editor.glyphMargin": false,
+    "editor.foldingHighlight": false,
+    "editor.renderLineHighlight": "none",
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.matchBrackets": "never",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.lineNumbers": "on", // OPTIONAL
+    "editor.parameterHints.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.inlineSuggest.enabled": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.multiCursorMergeOverlapping": false,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "editor.linkedEditing": true,
+
+    // !Explorer
+    "explorer.openEditors.visible": 1,
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+
+    // !Window
+    "window.autoDetectHighContrast": false, 
+    "window.menuBarVisibility": "toggle",   
+    "window.titleSeparator": " | ",
+    "window.commandCenter": false,
+    "settingsSync.ignoredSettings": [
+        "window.titleBarStyle",
+    ],
+    // "window.titleBarStyle": "custom",
+
+    // !Terminal
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.cursorStyleInactive": "underline",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.fontFamily":  "SF mono,\"Hack Nerd Font\"",//"Cartograph CF",//"jet brains mono","Cartograph CF Regular",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.letterSpacing": 0,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.autoReplies": {
+        "Terminate batch job (Y/N)": "Y\r",
+        "Terminate batch job (Y/n)": "Y\r",
+    },
+    "terminal.integrated.shellIntegration.history": 0,
+
+    // !Extensions 
+    "debug.disassemblyView.showSourceCode": false,
+    "resmon.show.cputemp": true,
+    "apc.stylesheet": {
+        ".quick-input-widget": {
+            "transform": "translateY(-50%) !important",
+            "top": "50% !important"
+        },
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "macos-modern",
+    "Notes.notesLocation": "/home/ipriyansh/Code/Notes",
+    "workbench.colorTheme": "Iceberg",
+    "workbench.editor.empty.hint": "hidden",
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": {
+        "*.db": "default"
+    },
+    // ext install enhancedjax.vscode-ayu-zed
+    // "bashIde.explainshellEndpoint": "http://localhost:5000",
+    // "security.workspace.trust.untrustedFiles": "open",
+    // "insert-unicode.favorites": {},
+    // "insert-unicode.unicode-font-use-regular-space": true,
+    // "window.customTitleBarVisibility": "auto",
+    // "redhat.telemetry.enabled": true,
+    // "vs-kubernetes": {
+    //     "vscode-kubernetes.minikube-path-linux": "/home/iampriyansh/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    //     "vscode-kubernetes.helm-path-linux": "/home/iampriyansh/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    //     "vscode-kubernetes.kubectl-path-linux": "/home/iampriyansh/.local/state/vs-kubernetes/tools/kubectl/kubectl"
+    // },
+    // "snyk.yesWelcomeNotification": false,
+    // "RainbowBrackets.depreciation-notice": false,
+    // "snyk.advanced.cliPath": "/home/iampriyansh/.local/share/snyk-ls/snyk-linux",
+    // "codeQL.telemetry.enableTelemetry": true,
+    // "sqltools.connections": [
+    //     {
+    //         "mysqlOptions": {"authProtocol": "default","enableSsl": "Disabled"},
+    //         "previewLimit": 50,
+    //         "server": "localhost",
+    //         "port": 3306,
+    //         "driver": "MySQL",
+    //         "name": "test",
+    //         "database": "test",
+    //         "username": "user",
+    //         "askForPassword": true
+    //     }
+    // ],
+
+}

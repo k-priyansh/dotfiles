@@ -1,0 +1,53 @@
+{
+	"color_scheme": "Packages/tokyonight.tmTheme",
+	"font_face": "SF Mono",
+	"font_size": 12,
+	"theme": "auto",
+	"bold_folder_labels": true,
+	// "caption": "1. Full - 2. 2 columns",
+	"caret_style": "solid",
+	"color_inactive_tabs": false,
+	// "color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+	"command": "set_layout",
+	"copy_with_empty_selection": false,
+	"detect_indentation": false,
+	// "draw_minimap_border": true,
+	"enable_telemetry": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	// "font_face": "Anonymous Pro",
+	// "font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	    "Markdown",
+	    "RestructuredText",
+	    "Vintage"
+	],
+	"indent_guide_options":
+	[
+	    "draw_active",
+	    "draw_normal"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"preview_on_click": false,
+	"rulers":
+	[
+	    79
+	],
+	"shift_tab_unindent": true,
+	"soda_folder_icons": false,
+	"status_bar_brighter": false,
+	// "theme": "Boxy Tomorrow.sublime-theme",
+	"theme_dirty_accent_orange": true,
+	"theme_find_panel_font_xs": true,
+	"theme_find_panel_materialized": true,
+	"theme_find_panel_size_xs": true,
+	"theme_tab_selected_underlined": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wrap_width": 80,
+}

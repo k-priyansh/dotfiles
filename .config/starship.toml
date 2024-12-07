@@ -1,0 +1,95 @@
+add_newline = false
+command_timeout = 1000
+
+format = """[](bgcolor)[  ](bg:bgcolor)[](bgcolor)[](fg:bgcolort bg:ccyan)$directory[](ccyan)[](fg:bgcolort bg:bgcolor)$time[](fg:bgcolor)[](fg:bgcolort bg:ccyan)$cmd_duration[](ccyan)$status$character"""
+# $directory$git$time$executiontime$character
+palette = 'foo'
+
+
+[palettes.foo]
+bgcolort = "#1A2332"
+bgcolor = "#0C212F"
+white = "#FFFFFF"
+bred = "#DE2121"
+ccyan = "#26BDBB"
+gitbg = "#280C2E"
+dred = "#910000"
+ibg = "#61AFEF"
+#
+#
+
+
+[os] # bg #0C212F fg #FFFFFF
+format = "[  ]($style)"
+style = "fg:white bg:bgcolor"
+disabled = false
+
+
+[os.symbols]
+Windows = " "
+Ubuntu = ' '
+
+
+[hostname] # bg #DE2121  fg #FFFFFF
+ssh_only = true
+format = 'on [$hostname](white bold) '
+disabled = false
+
+
+[username] # bg #DE2121  fg #FFFFFF
+style_user = 'white bold'
+style_root = 'black bold'
+# format = '[$user]($style) '
+format = '[$user](bold yellow) '
+disabled = false
+show_always = true
+
+
+[directory] # bg #26BDBB fg #0C212F
+truncation_length = 3
+truncation_symbol = '…/'
+home_symbol = ' 󰋜 '
+read_only_style = '197'
+read_only = '  '
+format = '[$path]($style)'
+style = "fg:bgcolor bg:ccyan"
+
+
+# [git] # bg #280C2E fg #FFFFFF
+
+
+[time] # bg #0C212F fg #FFFFFF
+disabled = false
+format = "[$time]($style)"
+# use_12hr = false
+time_format = " %R "
+#utc_time_offset = "+5:30"
+style = "fg:white bg:bgcolor"
+
+
+[cmd_duration] # bg #26BDBB fg #0C212F
+min_time = 0
+show_milliseconds = false
+format = '[ $duration ]($style)'
+style = "fg:bgcolor bg:ccyan"
+
+
+[status]
+# style = 'bg:blue'
+symbol = 'ERROR'
+not_executable_symbol= 'ERROR'
+not_found_symbol= 'ERROR'
+sigint_symbol= 'ERROR'
+signal_symbol= 'ERROR'
+success_symbol = ''
+# format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
+format = '[](fg:bgcolort bg:dred)[ ! ](fg:bgcolor bg:dred)[$symbol ]($style)[](dred)'
+style = "fg:white bg:dred"
+map_symbol = true
+disabled = false
+
+
+[character] # bg #910000 fg #ffffff
+success_symbol = ''
+error_symbol = ''
+
